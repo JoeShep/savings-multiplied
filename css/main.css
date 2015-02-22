@@ -142,6 +142,10 @@ header {
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: rgb(246,203,211);
+   font-size: 1.5em;
+   text-align: center;
+   font-weight: bold;
+   line-height: 1.1em !important
 }
 
 :-ms-input-placeholder {
