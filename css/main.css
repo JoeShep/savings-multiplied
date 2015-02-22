@@ -31,31 +31,33 @@ ul li {
   display: inline-block;
 }
 
-.login {
-  text-align: right;
-  padding-right: 85px;
-  margin-bottom: 5px;
-}
-
 header {
+  position: relative;
   padding-top: 5%;
   background-color: #CFEFEE;
-  position: relative;
+}
+
+.login {
+  width: 960px;
+  text-align: right;
+  padding-right: 65px;
+  margin: 0 auto 5px auto;
 }
 
 .header--logo {
   position: absolute;
-  left: 55px;
-  top: 35px;
+  left: 20px;
+  bottom: 10px;
 }
 
 .header--tagline {
   position: absolute;
-  right: 75px;
-  top: 190px;
+  right: 25px;
+  bottom: 35px;
 }
 
 .primary-nav, .content {
+  position: relative;
   margin: 0 auto;
   width: 960px;
   background-color: white;
@@ -119,6 +121,9 @@ header {
   bottom: 3px;
   height: 2em;
   margin-left: -20px;
+  background-image: url("../images/search.gif");
+  background-repeat: no-repeat;
+  background-position: 10% 35%;
   border-radius: 25px;
   border: 2px solid rgb(228,154,167);
 }
@@ -185,6 +190,8 @@ aside img {
 }
 
 .dotted-line {
+  width: 93%;
+  margin: 0 auto;
   background-image: url("../images/homepage/dotted_line_44x9.png");
   background-repeat: repeat-x;
   clear: both;
