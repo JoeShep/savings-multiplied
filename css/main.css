@@ -1,0 +1,106 @@
+.fat-text {
+  font-family: 'Corben', cursive;
+}
+
+ul li {
+  display: inline-block;
+}
+
+header {
+  padding-top: 5%;
+  background-color: #CFEFEE;
+}
+
+.logo {
+  position: absolute;
+  left: 55px;
+  top: 45px;
+}
+
+.primary-nav, .content {
+  margin: 0 auto;
+  width: 960px;
+  background-color: white;
+}
+
+.primary-nav {
+  text-align: right;
+  padding: 75px 0;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+
+}
+
+.content {
+  padding-top: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.secondary-nav {
+  padding: 10px 0 5px 85px;
+  background-color: rgb(246,203,211);
+  color: rgb(113,23,72);
+}
+
+.secondary-nav li {
+  padding-right: 50px;
+  font-size: 1.2em;
+}
+
+.secondary-nav input {
+  position: relative;
+  bottom: 3px;
+  height: 2em;
+  border-radius: 25px;
+  border: 2px solid rgb(228,154,167);
+}
+
+::-webkit-input-placeholder {
+  color: rgb(246,203,211);
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  line-height: .75em !important
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgb(246,203,211);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgb(246,203,211);
+}
+
+:-ms-input-placeholder {
+   color: rgb(246,203,211);
+}
+
+.container {
+  background-color: #69C4CC;
+}
+
+.content-left {
+  width: 55%;
+  float: left;
+  padding-left: 20px;
+}
+
+.tree-img {
+  position: relative;
+  left: 400px;
+  top: 161px;
+}
+
+aside {
+  width: 35%;
+  float: left;
+  padding-bottom: 25px;
+}
+
+.dotted-line {
+  background-image: url("../images/homepage/dotted_line_44x9.png");
+  background-repeat: repeat-x;
+  clear: both;
+  height: 10px;
+}
